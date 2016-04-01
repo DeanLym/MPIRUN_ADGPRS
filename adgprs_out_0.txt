@@ -1,0 +1,1145 @@
+OpenMP enabled, number of threads = 1
+Start simulation with /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PRED_MODEL.TXT file.
+Start time is 2016-02-18.17:54:13, running on cees-rcf.stanford.edu.
+****** Keyword not found ******VERBOSE_LEVEL
+OpenMP enabled, number of threads = 1
+Start simulation with /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PRED_MODEL.TXT file.
+Start time is 2016-02-18.17:54:13, running on cees-rcf.stanford.edu.
+****** Keyword not found ******VERBOSE_LEVEL
+****** Keyword not found ******ALLSILENT
+****** Keyword not found ******ALLSILENT
+FORMULATION:	NATURAL
+FLASH:		DEADOIL
+Number of phases = 2	Number of components = 2
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PERMX.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PERMY.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PERMZ.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PVT_DO.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/SCAL.DAT
+-- Output files prefix: OUTPUT
+File open for log /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PRED_MODEL.log.txt
+FORMULATION:	NATURAL
+FLASH:		DEADOIL
+Number of phases = 2	Number of components = 2
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PERMX.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PERMY.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PERMZ.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PVT_DO.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/SCAL.DAT
+-- Output files prefix: OUTPUT
+File open for log /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PRED_MODEL.log.txt
+nc = 2
+np = 2
+
+Grid Dimension: 60  60  1
+Number of Cells: 3600
+Number of Active Cells: 3600
+Number of Connections: 7080
+Number of Active Connections: 7080
+
+nc = 2
+np = 2
+
+Grid Dimension: 60  60  1
+Number of Cells: 3600
+Number of Active Cells: 3600
+Number of Connections: 7080
+Number of Active Connections: 7080
+
+NaturalVariableFormulation is selected!
+Block Linear System is selected!
+%% T =     0.010, DT =   0.010, NI =   4, LI =    12, CFL = 0.075
+NaturalVariableFormulation is selected!
+Block Linear System is selected!
+%% T =     0.010, DT =   0.010, NI =   4, LI =    12, CFL = 0.075
+%% T =     0.030, DT =   0.020, NI =   4, LI =    16, CFL = 0.180
+%% T =     0.030, DT =   0.020, NI =   4, LI =    16, CFL = 0.180
+%% T =     0.070, DT =   0.040, NI =   4, LI =    17, CFL = 0.340
+%% T =     0.070, DT =   0.040, NI =   4, LI =    17, CFL = 0.340
+%% T =     0.150, DT =   0.080, NI =   4, LI =    19, CFL = 0.616
+%% T =     0.150, DT =   0.080, NI =   4, LI =    19, CFL = 0.616
+%% T =     0.310, DT =   0.160, NI =   4, LI =    19, CFL = 1.102
+%% T =     0.310, DT =   0.160, NI =   4, LI =    19, CFL = 1.102
+%% T =     0.630, DT =   0.320, NI =   4, LI =    20, CFL = 1.956
+%% T =     0.630, DT =   0.320, NI =   4, LI =    20, CFL = 1.956
+%% T =     1.270, DT =   0.640, NI =   4, LI =    20, CFL = 3.449
+%% T =     1.270, DT =   0.640, NI =   4, LI =    20, CFL = 3.449
+%% T =     2.550, DT =   1.280, NI =   5, LI =    31, CFL = 6.043
+%% T =     2.550, DT =   1.280, NI =   5, LI =    31, CFL = 6.043
+%% T =     5.110, DT =   2.560, NI =   6, LI =    42, CFL = 10.411
+%% T =     5.110, DT =   2.560, NI =   6, LI =    42, CFL = 10.411
+%% T =    10.230, DT =   5.120, NI =   7, LI =    54, CFL = 17.106
+%% T =    10.230, DT =   5.120, NI =   7, LI =    54, CFL = 17.106
+%% T =    20.470, DT =  10.240, NI =   7, LI =    57, CFL = 26.679
+%% T =    20.470, DT =  10.240, NI =   7, LI =    57, CFL = 26.679
+%% T =    40.950, DT =  20.480, NI =   7, LI =    65, CFL = 45.195
+%% T =    40.950, DT =  20.480, NI =   7, LI =    65, CFL = 45.195
+%% T =    70.950, DT =  30.000, NI =   7, LI =    65, CFL = 59.797
+%% T =    70.950, DT =  30.000, NI =   7, LI =    65, CFL = 59.797
+%% T =   100.950, DT =  30.000, NI =   6, LI =    52, CFL = 57.766
+%% T =   100.950, DT =  30.000, NI =   6, LI =    52, CFL = 57.766
+%% T =   130.950, DT =  30.000, NI =   5, LI =    43, CFL = 57.555
+%% T =   130.950, DT =  30.000, NI =   5, LI =    43, CFL = 57.555
+%% T =   160.950, DT =  30.000, NI =   5, LI =    42, CFL = 57.697
+%% T =   160.950, DT =  30.000, NI =   5, LI =    42, CFL = 57.697
+%% T =   180.000, DT =  19.050, NI =   4, LI =    32, CFL = 36.699
+%% T =   180.000, DT =  19.050, NI =   4, LI =    32, CFL = 36.699
+%% T =   210.000, DT =  30.000, NI =   4, LI =    33, CFL = 57.908
+%% T =   210.000, DT =  30.000, NI =   4, LI =    33, CFL = 57.908
+%% T =   240.000, DT =  30.000, NI =   4, LI =    33, CFL = 58.037
+%% T =   240.000, DT =  30.000, NI =   4, LI =    33, CFL = 58.037
+%% T =   270.000, DT =  30.000, NI =   5, LI =    39, CFL = 58.227
+%% T =   270.000, DT =  30.000, NI =   5, LI =    39, CFL = 58.227
+%% T =   300.000, DT =  30.000, NI =   4, LI =    32, CFL = 58.493
+%% T =   300.000, DT =  30.000, NI =   4, LI =    32, CFL = 58.493
+%% T =   330.000, DT =  30.000, NI =   4, LI =    34, CFL = 58.770
+%% T =   330.000, DT =  30.000, NI =   4, LI =    34, CFL = 58.770
+%% T =   360.000, DT =  30.000, NI =   4, LI =    33, CFL = 59.027
+%% T =   360.000, DT =  30.000, NI =   4, LI =    33, CFL = 59.027
+%% T =   390.000, DT =  30.000, NI =   4, LI =    30, CFL = 59.250
+%% T =   390.000, DT =  30.000, NI =   4, LI =    30, CFL = 59.250
+%% T =   420.000, DT =  30.000, NI =   4, LI =    31, CFL = 59.433
+%% T =   420.000, DT =  30.000, NI =   4, LI =    31, CFL = 59.433
+%% T =   450.000, DT =  30.000, NI =   5, LI =    37, CFL = 59.587
+%% T =   450.000, DT =  30.000, NI =   5, LI =    37, CFL = 59.587
+%% T =   480.000, DT =  30.000, NI =   5, LI =    37, CFL = 59.709
+%% T =   480.000, DT =  30.000, NI =   5, LI =    37, CFL = 59.709
+%% T =   510.000, DT =  30.000, NI =   4, LI =    31, CFL = 59.793
+%% T =   510.000, DT =  30.000, NI =   4, LI =    31, CFL = 59.793
+%% T =   540.000, DT =  30.000, NI =   5, LI =    40, CFL = 59.841
+%% T =   540.000, DT =  30.000, NI =   5, LI =    40, CFL = 59.841
+OpenMP enabled, number of threads = 1
+Start simulation with /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PRED_MODEL.TXT file.
+Start time is 2016-02-18.17:54:29, running on cees-rcf.stanford.edu.
+****** Keyword not found ******VERBOSE_LEVEL
+OpenMP enabled, number of threads = 1
+Start simulation with /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PRED_MODEL.TXT file.
+Start time is 2016-02-18.17:54:29, running on cees-rcf.stanford.edu.
+****** Keyword not found ******VERBOSE_LEVEL
+****** Keyword not found ******ALLSILENT
+****** Keyword not found ******ALLSILENT
+FORMULATION:	NATURAL
+FLASH:		DEADOIL
+Number of phases = 2	Number of components = 2
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PERMX.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PERMY.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PERMZ.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PVT_DO.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/SCAL.DAT
+-- Output files prefix: OUTPUT
+File open for log /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PRED_MODEL.log.txt
+nc = 2
+np = 2
+
+Grid Dimension: 60  60  1
+Number of Cells: 3600
+Number of Active Cells: 3600
+Number of Connections: 7080
+Number of Active Connections: 7080
+
+FORMULATION:	NATURAL
+FLASH:		DEADOIL
+Number of phases = 2	Number of components = 2
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PERMX.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PERMY.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PERMZ.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PVT_DO.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/SCAL.DAT
+-- Output files prefix: OUTPUT
+File open for log /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PRED_MODEL.log.txt
+nc = 2
+np = 2
+
+Grid Dimension: 60  60  1
+Number of Cells: 3600
+Number of Active Cells: 3600
+Number of Connections: 7080
+Number of Active Connections: 7080
+
+NaturalVariableFormulation is selected!
+Block Linear System is selected!
+%% T =     0.010, DT =   0.010, NI =   4, LI =    12, CFL = 0.091
+NaturalVariableFormulation is selected!
+Block Linear System is selected!
+%% T =     0.010, DT =   0.010, NI =   4, LI =    12, CFL = 0.091
+%% T =     0.030, DT =   0.020, NI =   4, LI =    16, CFL = 0.217
+%% T =     0.030, DT =   0.020, NI =   4, LI =    16, CFL = 0.217
+%% T =     0.070, DT =   0.040, NI =   4, LI =    17, CFL = 0.423
+%% T =     0.070, DT =   0.040, NI =   4, LI =    17, CFL = 0.423
+%% T =     0.150, DT =   0.080, NI =   4, LI =    18, CFL = 0.803
+%% T =     0.150, DT =   0.080, NI =   4, LI =    18, CFL = 0.803
+%% T =     0.310, DT =   0.160, NI =   4, LI =    20, CFL = 1.499
+%% T =     0.310, DT =   0.160, NI =   4, LI =    20, CFL = 1.499
+%% T =     0.630, DT =   0.320, NI =   4, LI =    20, CFL = 2.725
+%% T =     0.630, DT =   0.320, NI =   4, LI =    20, CFL = 2.725
+%% T =     1.270, DT =   0.640, NI =   5, LI =    26, CFL = 4.693
+%% T =     1.270, DT =   0.640, NI =   5, LI =    26, CFL = 4.693
+%% T =     2.550, DT =   1.280, NI =   5, LI =    29, CFL = 7.353
+%% T =     2.550, DT =   1.280, NI =   5, LI =    29, CFL = 7.353
+%% T =     5.110, DT =   2.560, NI =   6, LI =    38, CFL = 10.229
+%% T =     5.110, DT =   2.560, NI =   6, LI =    38, CFL = 10.229
+%% T =    10.230, DT =   5.120, NI =   6, LI =    42, CFL = 13.019
+%% T =    10.230, DT =   5.120, NI =   6, LI =    42, CFL = 13.019
+%% T =    20.470, DT =  10.240, NI =   6, LI =    43, CFL = 16.810
+%% T =    20.470, DT =  10.240, NI =   6, LI =    43, CFL = 16.810
+%% T =    40.950, DT =  20.480, NI =   6, LI =    47, CFL = 23.907
+%% T =    40.950, DT =  20.480, NI =   6, LI =    47, CFL = 23.907
+%% T =    70.950, DT =  30.000, NI =   6, LI =    45, CFL = 28.881
+%% T =    70.950, DT =  30.000, NI =   6, LI =    45, CFL = 28.881
+%% T =   100.950, DT =  30.000, NI =   6, LI =    45, CFL = 25.574
+%% T =   100.950, DT =  30.000, NI =   6, LI =    45, CFL = 25.574
+%% T =   130.950, DT =  30.000, NI =   6, LI =    45, CFL = 24.144
+%% T =   130.950, DT =  30.000, NI =   6, LI =    45, CFL = 24.144
+%% T =   160.950, DT =  30.000, NI =   5, LI =    37, CFL = 23.071
+%% T =   160.950, DT =  30.000, NI =   5, LI =    37, CFL = 23.071
+%% T =   180.000, DT =  19.050, NI =   5, LI =    37, CFL = 14.240
+%% T =   180.000, DT =  19.050, NI =   5, LI =    37, CFL = 14.240
+%% T =   210.000, DT =  30.000, NI =   6, LI =    46, CFL = 21.453
+%% T =   240.000, DT =  30.000, NI =   6, LI =    45, CFL = 20.570
+%% T =   210.000, DT =  30.000, NI =   6, LI =    46, CFL = 21.453
+%% T =   270.000, DT =  30.000, NI =   5, LI =    37, CFL = 19.731
+%% T =   240.000, DT =  30.000, NI =   6, LI =    45, CFL = 20.570
+%% T =   300.000, DT =  30.000, NI =   5, LI =    37, CFL = 18.932
+%% T =   270.000, DT =  30.000, NI =   5, LI =    37, CFL = 19.731
+%% T =   300.000, DT =  30.000, NI =   5, LI =    37, CFL = 18.932
+%% T =   330.000, DT =  30.000, NI =   5, LI =    38, CFL = 18.174
+%% T =   360.000, DT =  30.000, NI =   5, LI =    38, CFL = 17.516
+%% T =   330.000, DT =  30.000, NI =   5, LI =    38, CFL = 18.174
+%% T =   360.000, DT =  30.000, NI =   5, LI =    38, CFL = 17.516
+%% T =   390.000, DT =  30.000, NI =   5, LI =    38, CFL = 17.157
+%% T =   390.000, DT =  30.000, NI =   5, LI =    38, CFL = 17.157
+%% T =   420.000, DT =  30.000, NI =   5, LI =    38, CFL = 16.840
+%% T =   420.000, DT =  30.000, NI =   5, LI =    38, CFL = 16.840
+%% T =   450.000, DT =  30.000, NI =   5, LI =    39, CFL = 16.547
+%% T =   450.000, DT =  30.000, NI =   5, LI =    39, CFL = 16.547
+%% T =   480.000, DT =  30.000, NI =   5, LI =    41, CFL = 16.262
+%% T =   480.000, DT =  30.000, NI =   5, LI =    41, CFL = 16.262
+%% T =   510.000, DT =  30.000, NI =   5, LI =    40, CFL = 16.055
+%% T =   510.000, DT =  30.000, NI =   5, LI =    40, CFL = 16.055
+%% T =   540.000, DT =  30.000, NI =   5, LI =    37, CFL = 15.751
+%% T =   540.000, DT =  30.000, NI =   5, LI =    37, CFL = 15.751
+%% T =   570.000, DT =  30.000, NI =   4, LI =    30, CFL = 15.527
+%% T =   570.000, DT =  30.000, NI =   4, LI =    30, CFL = 15.527
+%% T =   600.000, DT =  30.000, NI =   5, LI =    37, CFL = 15.323
+%% T =   600.000, DT =  30.000, NI =   5, LI =    37, CFL = 15.323
+%% T =   630.000, DT =  30.000, NI =   5, LI =    37, CFL = 15.140
+%% T =   630.000, DT =  30.000, NI =   5, LI =    37, CFL = 15.140
+%% T =   660.000, DT =  30.000, NI =   5, LI =    35, CFL = 14.975
+%% T =   660.000, DT =  30.000, NI =   5, LI =    35, CFL = 14.975
+%% T =   690.000, DT =  30.000, NI =   5, LI =    36, CFL = 14.823
+%% T =   690.000, DT =  30.000, NI =   5, LI =    36, CFL = 14.823
+%% T =   720.000, DT =  30.000, NI =   5, LI =    36, CFL = 14.683
+%% T =   720.000, DT =  30.000, NI =   5, LI =    36, CFL = 14.683
+%% T =   750.000, DT =  30.000, NI =   5, LI =    37, CFL = 14.551
+%% T =   750.000, DT =  30.000, NI =   5, LI =    37, CFL = 14.551
+%% T =   780.000, DT =  30.000, NI =   5, LI =    37, CFL = 14.428
+%% T =   780.000, DT =  30.000, NI =   5, LI =    37, CFL = 14.428
+%% T =   810.000, DT =  30.000, NI =   5, LI =    36, CFL = 14.314
+%% T =   840.000, DT =  30.000, NI =   5, LI =    37, CFL = 14.207
+%% T =   870.000, DT =  30.000, NI =   5, LI =    36, CFL = 14.105
+%% T =   900.000, DT =  30.000, NI =   5, LI =    37, CFL = 14.008
+%% T =   930.000, DT =  30.000, NI =   5, LI =    36, CFL = 13.917
+%% T =   960.000, DT =  30.000, NI =   4, LI =    29, CFL = 13.831
+%% T =   810.000, DT =  30.000, NI =   5, LI =    36, CFL = 14.314
+%% T =   990.000, DT =  30.000, NI =   4, LI =    31, CFL = 13.750
+%% T =   840.000, DT =  30.000, NI =   5, LI =    37, CFL = 14.207
+%% T =  1020.000, DT =  30.000, NI =   5, LI =    37, CFL = 13.675
+%% T =   870.000, DT =  30.000, NI =   5, LI =    36, CFL = 14.105
+%% T =  1050.000, DT =  30.000, NI =   5, LI =    39, CFL = 13.603
+%% T =   900.000, DT =  30.000, NI =   5, LI =    37, CFL = 14.008
+%% T =  1080.000, DT =  30.000, NI =   4, LI =    32, CFL = 13.533
+%% T =   930.000, DT =  30.000, NI =   5, LI =    36, CFL = 13.917
+%% T =  1110.000, DT =  30.000, NI =   5, LI =    38, CFL = 13.463
+%% T =   960.000, DT =  30.000, NI =   4, LI =    29, CFL = 13.831
+%% T =  1140.000, DT =  30.000, NI =   5, LI =    38, CFL = 13.393
+%% T =   990.000, DT =  30.000, NI =   4, LI =    31, CFL = 13.750
+%% T =  1170.000, DT =  30.000, NI =   4, LI =    30, CFL = 13.322
+%% T =  1200.000, DT =  30.000, NI =   5, LI =    38, CFL = 13.250
+%% T =  1020.000, DT =  30.000, NI =   5, LI =    37, CFL = 13.675
+%% T =  1230.000, DT =  30.000, NI =   4, LI =    30, CFL = 13.173
+%% T =  1050.000, DT =  30.000, NI =   5, LI =    39, CFL = 13.603
+%% T =  1260.000, DT =  30.000, NI =   5, LI =    39, CFL = 13.092
+%% T =  1080.000, DT =  30.000, NI =   4, LI =    32, CFL = 13.533
+%% T =  1290.000, DT =  30.000, NI =   4, LI =    31, CFL = 13.010
+%% T =  1110.000, DT =  30.000, NI =   5, LI =    38, CFL = 13.463
+%% T =  1320.000, DT =  30.000, NI =   4, LI =    31, CFL = 12.933
+%% T =  1140.000, DT =  30.000, NI =   5, LI =    38, CFL = 13.393
+%% T =  1350.000, DT =  30.000, NI =   4, LI =    31, CFL = 12.865
+%% T =  1170.000, DT =  30.000, NI =   4, LI =    30, CFL = 13.322
+%% T =  1380.000, DT =  30.000, NI =   4, LI =    30, CFL = 12.886
+%% T =  1200.000, DT =  30.000, NI =   5, LI =    38, CFL = 13.250
+%% T =  1410.000, DT =  30.000, NI =   4, LI =    30, CFL = 13.032
+%% T =  1230.000, DT =  30.000, NI =   4, LI =    30, CFL = 13.173
+%% T =  1440.000, DT =  30.000, NI =   4, LI =    30, CFL = 13.152
+%% T =  1260.000, DT =  30.000, NI =   5, LI =    39, CFL = 13.092
+%% T =  1470.000, DT =  30.000, NI =   3, LI =    23, CFL = 13.261
+%% T =  1290.000, DT =  30.000, NI =   4, LI =    31, CFL = 13.010
+%% T =  1500.000, DT =  30.000, NI =   4, LI =    30, CFL = 13.370
+%% T =  1530.000, DT =  30.000, NI =   4, LI =    30, CFL = 13.488
+%% T =  1320.000, DT =  30.000, NI =   4, LI =    31, CFL = 12.933
+%% T =  1560.000, DT =  30.000, NI =   3, LI =    23, CFL = 13.615
+%% T =  1350.000, DT =  30.000, NI =   4, LI =    31, CFL = 12.865
+%% T =  1590.000, DT =  30.000, NI =   3, LI =    23, CFL = 13.751
+%% T =  1620.000, DT =  30.000, NI =   3, LI =    23, CFL = 13.895
+%% T =  1380.000, DT =  30.000, NI =   4, LI =    30, CFL = 12.886
+%% T =  1650.000, DT =  30.000, NI =   3, LI =    22, CFL = 14.042
+%% T =  1410.000, DT =  30.000, NI =   4, LI =    30, CFL = 13.032
+%% T =  1680.000, DT =  30.000, NI =   3, LI =    22, CFL = 14.188
+%% T =  1710.000, DT =  30.000, NI =   4, LI =    30, CFL = 14.330
+%% T =  1440.000, DT =  30.000, NI =   4, LI =    30, CFL = 13.152
+%% T =  1740.000, DT =  30.000, NI =   3, LI =    22, CFL = 14.470
+%% T =  1470.000, DT =  30.000, NI =   3, LI =    23, CFL = 13.261
+%% T =  1500.000, DT =  30.000, NI =   4, LI =    30, CFL = 13.370
+%% T =  1770.000, DT =  30.000, NI =   3, LI =    22, CFL = 14.608
+%% T =  1800.000, DT =  30.000, NI =   3, LI =    22, CFL = 14.743
+%% T =  1530.000, DT =  30.000, NI =   4, LI =    30, CFL = 13.488
+%% T =  1830.000, DT =  30.000, NI =   3, LI =    22, CFL = 14.875
+%% T =  1560.000, DT =  30.000, NI =   3, LI =    23, CFL = 13.615
+%% T =  1590.000, DT =  30.000, NI =   3, LI =    23, CFL = 13.751
+%% T =  1860.000, DT =  30.000, NI =   3, LI =    22, CFL = 15.003
+%% T =  1620.000, DT =  30.000, NI =   3, LI =    23, CFL = 13.895
+%% T =  1890.000, DT =  30.000, NI =   4, LI =    30, CFL = 15.126
+%% T =  1650.000, DT =  30.000, NI =   3, LI =    22, CFL = 14.042
+%% T =  1920.000, DT =  30.000, NI =   4, LI =    31, CFL = 15.243
+%% T =  1680.000, DT =  30.000, NI =   3, LI =    22, CFL = 14.188
+%% T =  1950.000, DT =  30.000, NI =   4, LI =    29, CFL = 15.352
+%% T =  1710.000, DT =  30.000, NI =   4, LI =    30, CFL = 14.330
+%% T =  1980.000, DT =  30.000, NI =   3, LI =    23, CFL = 15.450
+%% T =  1740.000, DT =  30.000, NI =   3, LI =    22, CFL = 14.470
+%% T =  2010.000, DT =  30.000, NI =   3, LI =    23, CFL = 15.541
+%% T =  2040.000, DT =  30.000, NI =   3, LI =    22, CFL = 15.628
+%% T =  1770.000, DT =  30.000, NI =   3, LI =    22, CFL = 14.608
+%% T =  2070.000, DT =  30.000, NI =   3, LI =    22, CFL = 15.711
+%% T =  1800.000, DT =  30.000, NI =   3, LI =    22, CFL = 14.743
+%% T =  2100.000, DT =  30.000, NI =   3, LI =    22, CFL = 15.791
+%% T =  1830.000, DT =  30.000, NI =   3, LI =    22, CFL = 14.875
+%% T =  2130.000, DT =  30.000, NI =   3, LI =    22, CFL = 15.869
+%% T =  1860.000, DT =  30.000, NI =   3, LI =    22, CFL = 15.003
+%% T =  2160.000, DT =  30.000, NI =   3, LI =    22, CFL = 15.944
+%% T =  1890.000, DT =  30.000, NI =   4, LI =    30, CFL = 15.126
+%% T =  2190.000, DT =  30.000, NI =   4, LI =    26, CFL = 16.015
+%% T =  1920.000, DT =  30.000, NI =   4, LI =    31, CFL = 15.243
+%% T =  2220.000, DT =  30.000, NI =   3, LI =    21, CFL = 16.085
+%% T =  1950.000, DT =  30.000, NI =   4, LI =    29, CFL = 15.352
+%% T =  1980.000, DT =  30.000, NI =   3, LI =    23, CFL = 15.450
+%% T =  2250.000, DT =  30.000, NI =   4, LI =    30, CFL = 16.150
+%% T =  2010.000, DT =  30.000, NI =   3, LI =    23, CFL = 15.541
+%% T =  2280.000, DT =  30.000, NI =   4, LI =    29, CFL = 16.212
+%% T =  2040.000, DT =  30.000, NI =   3, LI =    22, CFL = 15.628
+%% T =  2310.000, DT =  30.000, NI =   3, LI =    22, CFL = 16.271
+%% T =  2070.000, DT =  30.000, NI =   3, LI =    22, CFL = 15.711
+%% T =  2100.000, DT =  30.000, NI =   3, LI =    22, CFL = 15.791
+%% T =  2340.000, DT =  30.000, NI =   3, LI =    21, CFL = 16.326
+%% T =  2130.000, DT =  30.000, NI =   3, LI =    22, CFL = 15.869
+%% T =  2370.000, DT =  30.000, NI =   3, LI =    23, CFL = 16.379
+%% T =  2160.000, DT =  30.000, NI =   3, LI =    22, CFL = 15.944
+%% T =  2400.000, DT =  30.000, NI =   3, LI =    22, CFL = 16.428
+%% T =  2190.000, DT =  30.000, NI =   4, LI =    26, CFL = 16.015
+%% T =  2430.000, DT =  30.000, NI =   4, LI =    27, CFL = 16.475
+%% T =  2460.000, DT =  30.000, NI =   3, LI =    21, CFL = 16.519
+%% T =  2220.000, DT =  30.000, NI =   3, LI =    21, CFL = 16.085
+%% T =  2490.000, DT =  30.000, NI =   3, LI =    21, CFL = 16.562
+%% T =  2250.000, DT =  30.000, NI =   4, LI =    30, CFL = 16.150
+%% T =  2520.000, DT =  30.000, NI =   3, LI =    20, CFL = 16.603
+%% T =  2280.000, DT =  30.000, NI =   4, LI =    29, CFL = 16.212
+%% T =  2550.000, DT =  30.000, NI =   4, LI =    28, CFL = 16.642
+%% T =  2310.000, DT =  30.000, NI =   3, LI =    22, CFL = 16.271
+%% T =  2340.000, DT =  30.000, NI =   3, LI =    21, CFL = 16.326
+%% T =  2580.000, DT =  30.000, NI =   3, LI =    21, CFL = 16.681
+%% T =  2370.000, DT =  30.000, NI =   3, LI =    23, CFL = 16.379
+%% T =  2610.000, DT =  30.000, NI =   4, LI =    26, CFL = 16.719
+%% T =  2400.000, DT =  30.000, NI =   3, LI =    22, CFL = 16.428
+%% T =  2640.000, DT =  30.000, NI =   3, LI =    21, CFL = 16.755
+%% T =  2430.000, DT =  30.000, NI =   4, LI =    27, CFL = 16.475
+%% T =  2670.000, DT =  30.000, NI =   4, LI =    27, CFL = 16.791
+%% T =  2460.000, DT =  30.000, NI =   3, LI =    21, CFL = 16.519
+%% T =  2700.000, DT =  30.000, NI =   3, LI =    22, CFL = 16.826
+%% T =  2490.000, DT =  30.000, NI =   3, LI =    21, CFL = 16.562
+%% T =  2730.000, DT =  30.000, NI =   3, LI =    20, CFL = 16.860
+%% T =  2520.000, DT =  30.000, NI =   3, LI =    20, CFL = 16.603
+%% T =  2760.000, DT =  30.000, NI =   4, LI =    25, CFL = 16.893
+%% T =  2550.000, DT =  30.000, NI =   4, LI =    28, CFL = 16.642
+%% T =  2790.000, DT =  30.000, NI =   4, LI =    25, CFL = 16.925
+%% T =  2580.000, DT =  30.000, NI =   3, LI =    21, CFL = 16.681
+%% T =  2820.000, DT =  30.000, NI =   3, LI =    21, CFL = 16.956
+%% T =  2610.000, DT =  30.000, NI =   4, LI =    26, CFL = 16.719
+%% T =  2850.000, DT =  30.000, NI =   4, LI =    26, CFL = 16.986
+%% T =  2640.000, DT =  30.000, NI =   3, LI =    21, CFL = 16.755
+%% T =  2880.000, DT =  30.000, NI =   3, LI =    19, CFL = 17.016
+%% T =  2670.000, DT =  30.000, NI =   4, LI =    27, CFL = 16.791
+%% T =  2910.000, DT =  30.000, NI =   4, LI =    25, CFL = 17.044
+%% T =  2700.000, DT =  30.000, NI =   3, LI =    22, CFL = 16.826
+%% T =  2940.000, DT =  30.000, NI =   3, LI =    20, CFL = 17.071
+%% T =  2730.000, DT =  30.000, NI =   3, LI =    20, CFL = 16.860
+%% T =  2970.000, DT =  30.000, NI =   3, LI =    21, CFL = 17.098
+%% T =  2760.000, DT =  30.000, NI =   4, LI =    25, CFL = 16.893
+%% T =  3000.000, DT =  30.000, NI =   4, LI =    26, CFL = 17.124
+%% T =  2790.000, DT =  30.000, NI =   4, LI =    25, CFL = 16.925
+%% T =  2820.000, DT =  30.000, NI =   3, LI =    21, CFL = 16.956
+
+-----------------------------------------
+               Statistics
+-----------------------------------------
+Number of timesteps performed  :     111
+Total Newton iterations        :     460
+Total linear solver iterations :    3280
+Number of timesteps wasted     :       0
+Wasted Newton iterations       :       0
+Wasted linear solver iterations:       0
+-----------------------------------------
+MaxCFL averaged by timesteps =    14.850
+-----------------------------------------
+
+----------------------------------------------
+ Total simulation time:      58.4001 seconds
+----------------------------------------------
+  Initialization       :     2.1514 [  4%]
+  CFL calc/TS init/IO  :    34.4067 [ 59%]
+  Discretization       :     5.8744 [ 10%]
+  Implicit levels      :     0.0060 [  0%]
+  Properties           :     3.9422 [  7%]
+  Newton check/update  :     1.2814 [  2%]
+  Linear factorization :     0.4521 [  1%]
+  Linear solution      :    10.2846 [ 18%]
+   CPR prec. setup     :     0.8263 [  1%]
+   CPR prec. solve     :     8.3370 [ 14%]
+    AMG prec. setup    :     0.0230 [  0%]
+    AMG first solve    :     4.4045 [  8%]
+    AMG other solve    :     1.9687 [  3%]
+    BILU prec. setup   :     0.4094 [  1%]
+    BILU prec. solve   :     0.9649 [  2%]
+----------------------------------------------
+ Average implicit cells     =   3600.0 [100%]
+ Maximum implicit cells     =     3600 [100%]
+ Average implicit variables =   7200.0 [100%]
+ Maximum implicit variables =     7200 [100%]
+----------------------------------------------
+
+Total equilibrium [0.7 * SSI + Newton] iterations: 0.0
+Totals: 58.4, 111(0), 460(0), 3280(0), 0.0, 0, 0
+
+Finished simulation at 2016-02-18.17:55:30
+%% T =  2850.000, DT =  30.000, NI =   4, LI =    26, CFL = 16.986
+%% T =  2880.000, DT =  30.000, NI =   3, LI =    19, CFL = 17.016
+%% T =  2910.000, DT =  30.000, NI =   4, LI =    25, CFL = 17.044
+%% T =  2940.000, DT =  30.000, NI =   3, LI =    20, CFL = 17.071
+%% T =  2970.000, DT =  30.000, NI =   3, LI =    21, CFL = 17.098
+%% T =  3000.000, DT =  30.000, NI =   4, LI =    26, CFL = 17.124
+
+-----------------------------------------
+               Statistics
+-----------------------------------------
+Number of timesteps performed  :     111
+Total Newton iterations        :     460
+Total linear solver iterations :    3280
+Number of timesteps wasted     :       0
+Wasted Newton iterations       :       0
+Wasted linear solver iterations:       0
+-----------------------------------------
+MaxCFL averaged by timesteps =    14.850
+-----------------------------------------
+
+----------------------------------------------
+ Total simulation time:      60.2558 seconds
+----------------------------------------------
+  Initialization       :     1.4218 [  2%]
+  CFL calc/TS init/IO  :    36.7270 [ 61%]
+  Discretization       :     5.8312 [ 10%]
+  Implicit levels      :     0.0060 [  0%]
+  Properties           :     4.0749 [  7%]
+  Newton check/update  :     1.2935 [  2%]
+  Linear factorization :     0.4487 [  1%]
+  Linear solution      :    10.4514 [ 17%]
+   CPR prec. setup     :     0.8287 [  1%]
+   CPR prec. solve     :     8.4958 [ 14%]
+    AMG prec. setup    :     0.0230 [  0%]
+    AMG first solve    :     4.5313 [  8%]
+    AMG other solve    :     1.9811 [  3%]
+    BILU prec. setup   :     0.4127 [  1%]
+    BILU prec. solve   :     0.9756 [  2%]
+----------------------------------------------
+ Average implicit cells     =   3600.0 [100%]
+ Maximum implicit cells     =     3600 [100%]
+ Average implicit variables =   7200.0 [100%]
+ Maximum implicit variables =     7200 [100%]
+----------------------------------------------
+
+Total equilibrium [0.7 * SSI + Newton] iterations: 0.0
+Totals: 60.3, 111(0), 460(0), 3280(0), 0.0, 0, 0
+
+Finished simulation at 2016-02-18.17:55:31
+OpenMP enabled, number of threads = 1
+Start simulation with /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PRED_MODEL.TXT file.
+Start time is 2016-03-31.20:42:38, running on cees-rcf-tool-4.
+****** Keyword not found ******VERBOSE_LEVEL
+****** Keyword not found ******ALLSILENT
+OpenMP enabled, number of threads = 1
+Start simulation with /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PRED_MODEL.TXT file.
+Start time is 2016-03-31.20:42:38, running on cees-rcf-tool-4.
+****** Keyword not found ******VERBOSE_LEVEL
+****** Keyword not found ******ALLSILENT
+OpenMP enabled, number of threads = 1
+Start simulation with /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PRED_MODEL.TXT file.
+Start time is 2016-03-31.20:42:38, running on cees-rcf-tool-4.
+****** Keyword not found ******VERBOSE_LEVEL
+****** Keyword not found ******ALLSILENT
+OpenMP enabled, number of threads = 1
+Start simulation with /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PRED_MODEL.TXT file.
+Start time is 2016-03-31.20:42:38, running on cees-rcf-tool-4.
+****** Keyword not found ******VERBOSE_LEVEL
+****** Keyword not found ******ALLSILENT
+OpenMP enabled, number of threads = 1
+Start simulation with /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PRED_MODEL.TXT file.
+Start time is 2016-03-31.20:42:38, running on cees-rcf-tool-4.
+****** Keyword not found ******VERBOSE_LEVEL
+OpenMP enabled, number of threads = 1
+Start simulation with /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PRED_MODEL.TXT file.
+Start time is 2016-03-31.20:42:38, running on cees-rcf-tool-4.
+****** Keyword not found ******VERBOSE_LEVEL
+OpenMP enabled, number of threads = 1
+Start simulation with /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PRED_MODEL.TXT file.
+Start time is 2016-03-31.20:42:38, running on cees-rcf-tool-4.
+****** Keyword not found ******VERBOSE_LEVEL
+OpenMP enabled, number of threads = 1
+Start simulation with /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PRED_MODEL.TXT file.
+Start time is 2016-03-31.20:42:38, running on cees-rcf-tool-4.
+****** Keyword not found ******VERBOSE_LEVEL
+****** Keyword not found ******ALLSILENT
+****** Keyword not found ******ALLSILENT
+****** Keyword not found ******ALLSILENT
+****** Keyword not found ******ALLSILENT
+FORMULATION:	NATURAL
+FLASH:		DEADOIL
+Number of phases = 2	Number of components = 2
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PERMX.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PERMY.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PERMZ.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PVT_DO.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/SCAL.DAT
+-- Output files prefix: OUTPUT
+File open for log /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PRED_MODEL.log.txt
+nc = 2
+np = 2
+
+Grid Dimension: 60  60  1
+Number of Cells: 3600
+Number of Active Cells: 3600
+Number of Connections: 7080
+Number of Active Connections: 7080
+
+FORMULATION:	NATURAL
+FLASH:		DEADOIL
+Number of phases = 2	Number of components = 2
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PERMX.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PERMY.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PERMZ.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PVT_DO.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/SCAL.DAT
+-- Output files prefix: OUTPUT
+File open for log /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PRED_MODEL.log.txt
+nc = 2
+np = 2
+
+Grid Dimension: 60  60  1
+Number of Cells: 3600
+Number of Active Cells: 3600
+Number of Connections: 7080
+Number of Active Connections: 7080
+
+FORMULATION:	NATURAL
+FLASH:		DEADOIL
+Number of phases = 2	Number of components = 2
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PERMX.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PERMY.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PERMZ.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PVT_DO.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/SCAL.DAT
+-- Output files prefix: OUTPUT
+File open for log /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PRED_MODEL.log.txt
+nc = 2
+np = 2
+
+Grid Dimension: 60  60  1
+Number of Cells: 3600
+Number of Active Cells: 3600
+Number of Connections: 7080
+Number of Active Connections: 7080
+
+FORMULATION:	NATURAL
+FLASH:		DEADOIL
+Number of phases = 2	Number of components = 2
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PERMX.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PERMY.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PERMZ.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PVT_DO.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/SCAL.DAT
+-- Output files prefix: OUTPUT
+File open for log /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PRED_MODEL.log.txt
+FORMULATION:	NATURAL
+FLASH:		DEADOIL
+Number of phases = 2	Number of components = 2
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PERMX.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PERMY.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PERMZ.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PVT_DO.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/SCAL.DAT
+-- Output files prefix: OUTPUT
+File open for log /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PRED_MODEL.log.txt
+nc = 2
+np = 2
+
+Grid Dimension: 60  60  1
+Number of Cells: 3600
+Number of Active Cells: 3600
+Number of Connections: 7080
+Number of Active Connections: 7080
+
+FORMULATION:	NATURAL
+FLASH:		DEADOIL
+Number of phases = 2	Number of components = 2
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PERMX.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PERMY.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PERMZ.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PVT_DO.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/SCAL.DAT
+-- Output files prefix: OUTPUT
+File open for log /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PRED_MODEL.log.txt
+FORMULATION:	NATURAL
+FLASH:		DEADOIL
+Number of phases = 2	Number of components = 2
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PERMX.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PERMY.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PERMZ.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PVT_DO.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/SCAL.DAT
+-- Output files prefix: OUTPUT
+File open for log /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PRED_MODEL.log.txt
+FORMULATION:	NATURAL
+FLASH:		DEADOIL
+Number of phases = 2	Number of components = 2
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PERMX.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PERMY.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PERMZ.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PVT_DO.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/SCAL.DAT
+-- Output files prefix: OUTPUT
+File open for log /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PRED_MODEL.log.txt
+nc = 2
+np = 2
+
+Grid Dimension: 60  60  1
+Number of Cells: 3600
+Number of Active Cells: 3600
+Number of Connections: 7080
+Number of Active Connections: 7080
+
+nc = 2
+np = 2
+
+Grid Dimension: 60  60  1
+Number of Cells: 3600
+Number of Active Cells: 3600
+Number of Connections: 7080
+Number of Active Connections: 7080
+
+nc = 2
+np = 2
+
+Grid Dimension: 60  60  1
+Number of Cells: 3600
+Number of Active Cells: 3600
+Number of Connections: 7080
+Number of Active Connections: 7080
+
+nc = 2
+np = 2
+
+Grid Dimension: 60  60  1
+Number of Cells: 3600
+Number of Active Cells: 3600
+Number of Connections: 7080
+Number of Active Connections: 7080
+
+NaturalVariableFormulation is selected!
+Block Linear System is selected!
+Filename '/data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/OUTPUT.vars.h5' does not exist
+NaturalVariableFormulation is selected!
+Block Linear System is selected!
+Filename '/data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/OUTPUT.vars.h5' does not exist
+OpenMP enabled, number of threads = 1
+Start simulation with /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PRED_MODEL.TXT file.
+Start time is 2016-03-31.20:42:38, running on cees-rcf-tool-4.
+****** Keyword not found ******VERBOSE_LEVEL
+OpenMP enabled, number of threads = 1
+Start simulation with /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PRED_MODEL.TXT file.
+Start time is 2016-03-31.20:42:38, running on cees-rcf-tool-4.
+****** Keyword not found ******VERBOSE_LEVEL
+****** Keyword not found ******ALLSILENT
+****** Keyword not found ******ALLSILENT
+NaturalVariableFormulation is selected!
+Block Linear System is selected!
+%% T =     0.010, DT =   0.010, NI =   4, LI =    12, CFL = 0.075
+FORMULATION:	NATURAL
+FLASH:		DEADOIL
+Number of phases = 2	Number of components = 2
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PERMX.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PERMY.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PERMZ.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PVT_DO.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/SCAL.DAT
+-- Output files prefix: OUTPUT
+File open for log /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PRED_MODEL.log.txt
+FORMULATION:	NATURAL
+FLASH:		DEADOIL
+Number of phases = 2	Number of components = 2
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PERMX.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PERMY.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PERMZ.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PVT_DO.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/SCAL.DAT
+-- Output files prefix: OUTPUT
+File open for log /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PRED_MODEL.log.txt
+nc = 2
+np = 2
+
+Grid Dimension: 60  60  1
+Number of Cells: 3600
+Number of Active Cells: 3600
+Number of Connections: 7080
+Number of Active Connections: 7080
+
+nc = 2
+np = 2
+
+Grid Dimension: 60  60  1
+Number of Cells: 3600
+Number of Active Cells: 3600
+Number of Connections: 7080
+Number of Active Connections: 7080
+
+NaturalVariableFormulation is selected!
+Block Linear System is selected!
+%% T =     0.010, DT =   0.010, NI =   4, LI =    12, CFL = 0.075
+NaturalVariableFormulation is selected!
+Block Linear System is selected!
+%% T =     0.010, DT =   0.010, NI =   4, LI =    12, CFL = 0.075
+NaturalVariableFormulation is selected!
+Block Linear System is selected!
+%% T =     0.010, DT =   0.010, NI =   4, LI =    12, CFL = 0.075
+NaturalVariableFormulation is selected!
+Block Linear System is selected!
+%% T =     0.010, DT =   0.010, NI =   4, LI =    12, CFL = 0.075
+NaturalVariableFormulation is selected!
+Block Linear System is selected!
+%% T =     0.010, DT =   0.010, NI =   4, LI =    12, CFL = 0.075
+%% T =     0.030, DT =   0.020, NI =   4, LI =    16, CFL = 0.180
+%% T =     0.030, DT =   0.020, NI =   4, LI =    16, CFL = 0.180
+%% T =     0.030, DT =   0.020, NI =   4, LI =    16, CFL = 0.180
+%% T =     0.030, DT =   0.020, NI =   4, LI =    16, CFL = 0.180
+%% T =     0.030, DT =   0.020, NI =   4, LI =    16, CFL = 0.180
+%% T =     0.030, DT =   0.020, NI =   4, LI =    16, CFL = 0.180
+%% T =     0.070, DT =   0.040, NI =   4, LI =    17, CFL = 0.340
+%% T =     0.070, DT =   0.040, NI =   4, LI =    17, CFL = 0.340
+%% T =     0.070, DT =   0.040, NI =   4, LI =    17, CFL = 0.340
+NaturalVariableFormulation is selected!
+Block Linear System is selected!
+%% T =     0.010, DT =   0.010, NI =   4, LI =    12, CFL = 0.091
+%% T =     0.070, DT =   0.040, NI =   4, LI =    17, CFL = 0.340
+NaturalVariableFormulation is selected!
+Block Linear System is selected!
+%% T =     0.010, DT =   0.010, NI =   4, LI =    12, CFL = 0.091
+%% T =     0.070, DT =   0.040, NI =   4, LI =    17, CFL = 0.340
+%% T =     0.070, DT =   0.040, NI =   4, LI =    17, CFL = 0.340
+%% T =     0.150, DT =   0.080, NI =   4, LI =    19, CFL = 0.616
+%% T =     0.150, DT =   0.080, NI =   4, LI =    19, CFL = 0.616
+%% T =     0.030, DT =   0.020, NI =   4, LI =    16, CFL = 0.217
+%% T =     0.150, DT =   0.080, NI =   4, LI =    19, CFL = 0.616
+%% T =     0.030, DT =   0.020, NI =   4, LI =    16, CFL = 0.217
+%% T =     0.150, DT =   0.080, NI =   4, LI =    19, CFL = 0.616
+%% T =     0.150, DT =   0.080, NI =   4, LI =    19, CFL = 0.616
+%% T =     0.150, DT =   0.080, NI =   4, LI =    19, CFL = 0.616
+%% T =     0.310, DT =   0.160, NI =   4, LI =    19, CFL = 1.102
+%% T =     0.310, DT =   0.160, NI =   4, LI =    19, CFL = 1.102
+%% T =     0.070, DT =   0.040, NI =   4, LI =    17, CFL = 0.423
+%% T =     0.310, DT =   0.160, NI =   4, LI =    19, CFL = 1.102
+%% T =     0.310, DT =   0.160, NI =   4, LI =    19, CFL = 1.102
+%% T =     0.070, DT =   0.040, NI =   4, LI =    17, CFL = 0.423
+%% T =     0.310, DT =   0.160, NI =   4, LI =    19, CFL = 1.102
+%% T =     0.310, DT =   0.160, NI =   4, LI =    19, CFL = 1.102
+%% T =     0.630, DT =   0.320, NI =   4, LI =    20, CFL = 1.956
+%% T =     0.630, DT =   0.320, NI =   4, LI =    20, CFL = 1.956
+%% T =     0.150, DT =   0.080, NI =   4, LI =    18, CFL = 0.803
+%% T =     0.630, DT =   0.320, NI =   4, LI =    20, CFL = 1.956
+%% T =     0.150, DT =   0.080, NI =   4, LI =    18, CFL = 0.803
+%% T =     0.630, DT =   0.320, NI =   4, LI =    20, CFL = 1.956
+%% T =     0.630, DT =   0.320, NI =   4, LI =    20, CFL = 1.956
+%% T =     0.630, DT =   0.320, NI =   4, LI =    20, CFL = 1.956
+%% T =     1.270, DT =   0.640, NI =   4, LI =    20, CFL = 3.449
+%% T =     1.270, DT =   0.640, NI =   4, LI =    20, CFL = 3.449
+%% T =     0.310, DT =   0.160, NI =   4, LI =    20, CFL = 1.499
+%% T =     1.270, DT =   0.640, NI =   4, LI =    20, CFL = 3.449
+%% T =     0.310, DT =   0.160, NI =   4, LI =    20, CFL = 1.499
+%% T =     1.270, DT =   0.640, NI =   4, LI =    20, CFL = 3.449
+%% T =     1.270, DT =   0.640, NI =   4, LI =    20, CFL = 3.449
+%% T =     1.270, DT =   0.640, NI =   4, LI =    20, CFL = 3.449
+%% T =     0.630, DT =   0.320, NI =   4, LI =    20, CFL = 2.725
+%% T =     0.630, DT =   0.320, NI =   4, LI =    20, CFL = 2.725
+%% T =     2.550, DT =   1.280, NI =   5, LI =    31, CFL = 6.043
+%% T =     2.550, DT =   1.280, NI =   5, LI =    31, CFL = 6.043
+%% T =     2.550, DT =   1.280, NI =   5, LI =    31, CFL = 6.043
+%% T =     2.550, DT =   1.280, NI =   5, LI =    31, CFL = 6.043
+%% T =     2.550, DT =   1.280, NI =   5, LI =    31, CFL = 6.043
+%% T =     2.550, DT =   1.280, NI =   5, LI =    31, CFL = 6.043
+%% T =     1.270, DT =   0.640, NI =   5, LI =    26, CFL = 4.693
+%% T =     1.270, DT =   0.640, NI =   5, LI =    26, CFL = 4.693
+%% T =     5.110, DT =   2.560, NI =   6, LI =    42, CFL = 10.411
+%% T =     5.110, DT =   2.560, NI =   6, LI =    42, CFL = 10.411
+%% T =     5.110, DT =   2.560, NI =   6, LI =    42, CFL = 10.411
+%% T =     5.110, DT =   2.560, NI =   6, LI =    42, CFL = 10.411
+%% T =     2.550, DT =   1.280, NI =   5, LI =    29, CFL = 7.353
+%% T =     5.110, DT =   2.560, NI =   6, LI =    42, CFL = 10.411
+%% T =     5.110, DT =   2.560, NI =   6, LI =    42, CFL = 10.411
+%% T =     2.550, DT =   1.280, NI =   5, LI =    29, CFL = 7.353
+%% T =    10.230, DT =   5.120, NI =   7, LI =    54, CFL = 17.106
+%% T =    10.230, DT =   5.120, NI =   7, LI =    54, CFL = 17.106
+%% T =    10.230, DT =   5.120, NI =   7, LI =    54, CFL = 17.106
+%% T =    10.230, DT =   5.120, NI =   7, LI =    54, CFL = 17.106
+%% T =     5.110, DT =   2.560, NI =   6, LI =    38, CFL = 10.229
+%% T =     5.110, DT =   2.560, NI =   6, LI =    38, CFL = 10.229
+%% T =    10.230, DT =   5.120, NI =   7, LI =    54, CFL = 17.106
+%% T =    10.230, DT =   5.120, NI =   7, LI =    54, CFL = 17.106
+%% T =    20.470, DT =  10.240, NI =   7, LI =    57, CFL = 26.679
+%% T =    20.470, DT =  10.240, NI =   7, LI =    57, CFL = 26.679
+%% T =    10.230, DT =   5.120, NI =   6, LI =    42, CFL = 13.019
+%% T =    20.470, DT =  10.240, NI =   7, LI =    57, CFL = 26.679
+%% T =    20.470, DT =  10.240, NI =   7, LI =    57, CFL = 26.679
+%% T =    10.230, DT =   5.120, NI =   6, LI =    42, CFL = 13.019
+%% T =    20.470, DT =  10.240, NI =   7, LI =    57, CFL = 26.679
+%% T =    20.470, DT =  10.240, NI =   7, LI =    57, CFL = 26.679
+%% T =    20.470, DT =  10.240, NI =   6, LI =    43, CFL = 16.810
+%% T =    40.950, DT =  20.480, NI =   7, LI =    65, CFL = 45.195
+%% T =    40.950, DT =  20.480, NI =   7, LI =    65, CFL = 45.195
+%% T =    40.950, DT =  20.480, NI =   7, LI =    65, CFL = 45.195
+%% T =    20.470, DT =  10.240, NI =   6, LI =    43, CFL = 16.810
+%% T =    40.950, DT =  20.480, NI =   7, LI =    65, CFL = 45.195
+%% T =    40.950, DT =  20.480, NI =   6, LI =    47, CFL = 23.907
+%% T =    40.950, DT =  20.480, NI =   7, LI =    65, CFL = 45.195
+%% T =    40.950, DT =  20.480, NI =   7, LI =    65, CFL = 45.195
+%% T =    70.950, DT =  30.000, NI =   7, LI =    65, CFL = 59.797
+%% T =    70.950, DT =  30.000, NI =   7, LI =    65, CFL = 59.797
+%% T =    70.950, DT =  30.000, NI =   7, LI =    65, CFL = 59.797
+%% T =    40.950, DT =  20.480, NI =   6, LI =    47, CFL = 23.907
+%% T =    70.950, DT =  30.000, NI =   7, LI =    65, CFL = 59.797
+%% T =    70.950, DT =  30.000, NI =   6, LI =    45, CFL = 28.881
+%% T =   100.950, DT =  30.000, NI =   6, LI =    52, CFL = 57.766
+%% T =   100.950, DT =  30.000, NI =   6, LI =    52, CFL = 57.766
+%% T =    70.950, DT =  30.000, NI =   7, LI =    65, CFL = 59.797
+%% T =    70.950, DT =  30.000, NI =   7, LI =    65, CFL = 59.797
+%% T =   100.950, DT =  30.000, NI =   6, LI =    52, CFL = 57.766
+%% T =    70.950, DT =  30.000, NI =   6, LI =    45, CFL = 28.881
+%% T =   100.950, DT =  30.000, NI =   6, LI =    45, CFL = 25.574
+%% T =   100.950, DT =  30.000, NI =   6, LI =    52, CFL = 57.766
+%% T =   130.950, DT =  30.000, NI =   5, LI =    43, CFL = 57.555
+%% T =   130.950, DT =  30.000, NI =   5, LI =    43, CFL = 57.555
+%% T =   130.950, DT =  30.000, NI =   5, LI =    43, CFL = 57.555
+%% T =   100.950, DT =  30.000, NI =   6, LI =    52, CFL = 57.766
+%% T =   100.950, DT =  30.000, NI =   6, LI =    52, CFL = 57.766
+%% T =   100.950, DT =  30.000, NI =   6, LI =    45, CFL = 25.574
+%% T =   160.950, DT =  30.000, NI =   5, LI =    42, CFL = 57.697
+%% T =   160.950, DT =  30.000, NI =   5, LI =    42, CFL = 57.697
+%% T =   130.950, DT =  30.000, NI =   6, LI =    45, CFL = 24.144
+%% T =   130.950, DT =  30.000, NI =   5, LI =    43, CFL = 57.555
+%% T =   160.950, DT =  30.000, NI =   5, LI =    42, CFL = 57.697
+%% T =   130.950, DT =  30.000, NI =   5, LI =    43, CFL = 57.555
+%% T =   130.950, DT =  30.000, NI =   5, LI =    43, CFL = 57.555
+%% T =   180.000, DT =  19.050, NI =   4, LI =    32, CFL = 36.699
+%% T =   180.000, DT =  19.050, NI =   4, LI =    32, CFL = 36.699
+%% T =   160.950, DT =  30.000, NI =   5, LI =    37, CFL = 23.071
+%% T =   160.950, DT =  30.000, NI =   5, LI =    42, CFL = 57.697
+%% T =   130.950, DT =  30.000, NI =   6, LI =    45, CFL = 24.144
+%% T =   180.000, DT =  19.050, NI =   4, LI =    32, CFL = 36.699
+OpenMP enabled, number of threads = 1
+Start simulation with /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PRED_MODEL.TXT file.
+Start time is 2016-03-31.20:42:43, running on cees-rcf-tool-4.
+****** Keyword not found ******VERBOSE_LEVEL
+****** Keyword not found ******ALLSILENT
+OpenMP enabled, number of threads = 1
+Start simulation with /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PRED_MODEL.TXT file.
+Start time is 2016-03-31.20:42:43, running on cees-rcf-tool-4.
+****** Keyword not found ******VERBOSE_LEVEL
+****** Keyword not found ******ALLSILENT
+FORMULATION:	NATURAL
+FLASH:		DEADOIL
+Number of phases = 2	Number of components = 2
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PERMX.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PERMY.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PERMZ.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PVT_DO.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/SCAL.DAT
+-- Output files prefix: OUTPUT
+File open for log /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PRED_MODEL.log.txt
+FORMULATION:	NATURAL
+FLASH:		DEADOIL
+Number of phases = 2	Number of components = 2
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PERMX.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PERMY.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PERMZ.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PVT_DO.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/SCAL.DAT
+-- Output files prefix: OUTPUT
+File open for log /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PRED_MODEL.log.txt
+nc = 2
+np = 2
+
+Grid Dimension: 60  60  1
+Number of Cells: 3600
+Number of Active Cells: 3600
+Number of Connections: 7080
+Number of Active Connections: 7080
+
+nc = 2
+np = 2
+
+Grid Dimension: 60  60  1
+Number of Cells: 3600
+Number of Active Cells: 3600
+Number of Connections: 7080
+Number of Active Connections: 7080
+
+%% T =   160.950, DT =  30.000, NI =   5, LI =    42, CFL = 57.697
+%% T =   160.950, DT =  30.000, NI =   5, LI =    42, CFL = 57.697
+%% T =   180.000, DT =  19.050, NI =   4, LI =    32, CFL = 36.699
+%% T =   160.950, DT =  30.000, NI =   5, LI =    37, CFL = 23.071
+%% T =   180.000, DT =  19.050, NI =   5, LI =    37, CFL = 14.240
+OpenMP enabled, number of threads = 1
+Start simulation with /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PRED_MODEL.TXT file.
+Start time is 2016-03-31.20:42:43, running on cees-rcf-tool-4.
+****** Keyword not found ******VERBOSE_LEVEL
+****** Keyword not found ******ALLSILENT
+FORMULATION:	NATURAL
+FLASH:		DEADOIL
+Number of phases = 2	Number of components = 2
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PERMX.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PERMY.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PERMZ.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PVT_DO.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/SCAL.DAT
+-- Output files prefix: OUTPUT
+File open for log /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PRED_MODEL.log.txt
+nc = 2
+np = 2
+
+Grid Dimension: 60  60  1
+Number of Cells: 3600
+Number of Active Cells: 3600
+Number of Connections: 7080
+Number of Active Connections: 7080
+
+%% T =   180.000, DT =  19.050, NI =   4, LI =    32, CFL = 36.699
+%% T =   180.000, DT =  19.050, NI =   4, LI =    32, CFL = 36.699
+OpenMP enabled, number of threads = 1
+Start simulation with /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PRED_MODEL.TXT file.
+Start time is 2016-03-31.20:42:43, running on cees-rcf-tool-4.
+****** Keyword not found ******VERBOSE_LEVEL
+****** Keyword not found ******ALLSILENT
+NaturalVariableFormulation is selected!
+Block Linear System is selected!
+%% T =     0.010, DT =   0.010, NI =   4, LI =    12, CFL = 0.091
+NaturalVariableFormulation is selected!
+Block Linear System is selected!
+%% T =     0.010, DT =   0.010, NI =   4, LI =    12, CFL = 0.091
+FORMULATION:	NATURAL
+FLASH:		DEADOIL
+Number of phases = 2	Number of components = 2
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PERMX.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PERMY.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PERMZ.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PVT_DO.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/SCAL.DAT
+-- Output files prefix: OUTPUT
+File open for log /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PRED_MODEL.log.txt
+nc = 2
+np = 2
+
+Grid Dimension: 60  60  1
+Number of Cells: 3600
+Number of Active Cells: 3600
+Number of Connections: 7080
+Number of Active Connections: 7080
+
+%% T =   180.000, DT =  19.050, NI =   5, LI =    37, CFL = 14.240
+NaturalVariableFormulation is selected!
+Block Linear System is selected!
+%% T =     0.010, DT =   0.010, NI =   4, LI =    12, CFL = 0.091
+%% T =     0.030, DT =   0.020, NI =   4, LI =    16, CFL = 0.217
+%% T =     0.030, DT =   0.020, NI =   4, LI =    16, CFL = 0.217
+%% T =   210.000, DT =  30.000, NI =   6, LI =    46, CFL = 21.453
+OpenMP enabled, number of threads = 1
+Start simulation with /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PRED_MODEL.TXT file.
+Start time is 2016-03-31.20:42:43, running on cees-rcf-tool-4.
+****** Keyword not found ******VERBOSE_LEVEL
+****** Keyword not found ******ALLSILENT
+OpenMP enabled, number of threads = 1
+Start simulation with /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PRED_MODEL.TXT file.
+Start time is 2016-03-31.20:42:43, running on cees-rcf-tool-4.
+****** Keyword not found ******VERBOSE_LEVEL
+****** Keyword not found ******ALLSILENT
+FORMULATION:	NATURAL
+FLASH:		DEADOIL
+Number of phases = 2	Number of components = 2
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PERMX.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PERMY.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PERMZ.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PVT_DO.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/SCAL.DAT
+-- Output files prefix: OUTPUT
+File open for log /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PRED_MODEL.log.txt
+FORMULATION:	NATURAL
+FLASH:		DEADOIL
+Number of phases = 2	Number of components = 2
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PERMX.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PERMY.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PERMZ.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PVT_DO.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/SCAL.DAT
+-- Output files prefix: OUTPUT
+File open for log /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_2/pred_model/PRED_MODEL.log.txt
+nc = 2
+np = 2
+
+Grid Dimension: 60  60  1
+Number of Cells: 3600
+Number of Active Cells: 3600
+Number of Connections: 7080
+Number of Active Connections: 7080
+
+nc = 2
+np = 2
+
+Grid Dimension: 60  60  1
+Number of Cells: 3600
+Number of Active Cells: 3600
+Number of Connections: 7080
+Number of Active Connections: 7080
+
+%% T =     0.070, DT =   0.040, NI =   4, LI =    17, CFL = 0.423
+%% T =     0.030, DT =   0.020, NI =   4, LI =    16, CFL = 0.217
+NaturalVariableFormulation is selected!
+Block Linear System is selected!
+%% T =     0.010, DT =   0.010, NI =   4, LI =    12, CFL = 0.091
+OpenMP enabled, number of threads = 1
+Start simulation with /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_3/pred_model/PRED_MODEL.TXT file.
+Start time is 2016-03-31.20:42:43, running on cees-rcf-tool-4.
+****** Keyword not found ******VERBOSE_LEVEL
+****** Keyword not found ******ALLSILENT
+%% T =     0.070, DT =   0.040, NI =   4, LI =    17, CFL = 0.423
+%% T =   240.000, DT =  30.000, NI =   6, LI =    45, CFL = 20.570
+%% T =     0.030, DT =   0.020, NI =   4, LI =    16, CFL = 0.217
+%% T =     0.150, DT =   0.080, NI =   4, LI =    18, CFL = 0.803
+%% T =     0.070, DT =   0.040, NI =   4, LI =    17, CFL = 0.423
+NaturalVariableFormulation is selected!
+Block Linear System is selected!
+%% T =     0.010, DT =   0.010, NI =   4, LI =    12, CFL = 0.091
+NaturalVariableFormulation is selected!
+Block Linear System is selected!
+%% T =     0.010, DT =   0.010, NI =   4, LI =    12, CFL = 0.091
+%% T =     0.150, DT =   0.080, NI =   4, LI =    18, CFL = 0.803
+FORMULATION:	NATURAL
+FLASH:		DEADOIL
+Number of phases = 2	Number of components = 2
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_3/pred_model/PERMX.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_3/pred_model/PERMY.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_3/pred_model/PERMZ.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_3/pred_model/PVT_DO.DAT
+Include filename = /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_3/pred_model/SCAL.DAT
+-- Output files prefix: OUTPUT
+File open for log /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_3/pred_model/PRED_MODEL.log.txt
+nc = 2
+np = 2
+
+Grid Dimension: 60  60  1
+Number of Cells: 3600
+Number of Active Cells: 3600
+Number of Connections: 7080
+Number of Active Connections: 7080
+
+%% T =     0.070, DT =   0.040, NI =   4, LI =    17, CFL = 0.423
+%% T =     0.030, DT =   0.020, NI =   4, LI =    16, CFL = 0.217
+%% T =     0.310, DT =   0.160, NI =   4, LI =    20, CFL = 1.499
+%% T =     0.150, DT =   0.080, NI =   4, LI =    18, CFL = 0.803
+%% T =     0.030, DT =   0.020, NI =   4, LI =    16, CFL = 0.217
+%% T =     0.310, DT =   0.160, NI =   4, LI =    20, CFL = 1.499
+%% T =   270.000, DT =  30.000, NI =   5, LI =    37, CFL = 19.731
+%% T =     0.150, DT =   0.080, NI =   4, LI =    18, CFL = 0.803
+%% T =     0.070, DT =   0.040, NI =   4, LI =    17, CFL = 0.423
+NaturalVariableFormulation is selected!
+Block Linear System is selected!
+%% T =     0.010, DT =   0.010, NI =   4, LI =    13, CFL = 0.080
+%% T =     0.630, DT =   0.320, NI =   4, LI =    20, CFL = 2.725
+%% T =     0.630, DT =   0.320, NI =   4, LI =    20, CFL = 2.725
+%% T =     0.070, DT =   0.040, NI =   4, LI =    17, CFL = 0.423
+%% T =     0.310, DT =   0.160, NI =   4, LI =    20, CFL = 1.499
+%% T =     0.310, DT =   0.160, NI =   4, LI =    20, CFL = 1.499
+%% T =     0.030, DT =   0.020, NI =   4, LI =    14, CFL = 0.195
+%% T =     0.150, DT =   0.080, NI =   4, LI =    18, CFL = 0.803
+%% T =   300.000, DT =  30.000, NI =   5, LI =    37, CFL = 18.932
+%% T =     0.150, DT =   0.080, NI =   4, LI =    18, CFL = 0.803
+%% T =     0.630, DT =   0.320, NI =   4, LI =    20, CFL = 2.725
+%% T =     1.270, DT =   0.640, NI =   5, LI =    26, CFL = 4.693
+%% T =     1.270, DT =   0.640, NI =   5, LI =    26, CFL = 4.693
+%% T =     0.070, DT =   0.040, NI =   4, LI =    14, CFL = 0.377
+%% T =     0.630, DT =   0.320, NI =   4, LI =    20, CFL = 2.725
+%% T =     0.310, DT =   0.160, NI =   4, LI =    20, CFL = 1.499
+%% T =     0.310, DT =   0.160, NI =   4, LI =    20, CFL = 1.499
+%% T =   330.000, DT =  30.000, NI =   5, LI =    38, CFL = 18.174
+%% T =     2.550, DT =   1.280, NI =   5, LI =    29, CFL = 7.353
+%% T =     2.550, DT =   1.280, NI =   5, LI =    29, CFL = 7.353
+%% T =     1.270, DT =   0.640, NI =   5, LI =    26, CFL = 4.693
+%% T =     0.150, DT =   0.080, NI =   4, LI =    16, CFL = 0.708
+%% T =     0.630, DT =   0.320, NI =   4, LI =    20, CFL = 2.725
+%% T =     1.270, DT =   0.640, NI =   5, LI =    26, CFL = 4.693
+%% T =     0.630, DT =   0.320, NI =   4, LI =    20, CFL = 2.725
+%% T =     0.310, DT =   0.160, NI =   4, LI =    18, CFL = 1.310
+%% T =     2.550, DT =   1.280, NI =   5, LI =    29, CFL = 7.353
+%% T =   360.000, DT =  30.000, NI =   5, LI =    38, CFL = 17.516
+%% T =     1.270, DT =   0.640, NI =   5, LI =    26, CFL = 4.693
+%% T =     5.110, DT =   2.560, NI =   6, LI =    38, CFL = 10.229
+%% T =     5.110, DT =   2.560, NI =   6, LI =    38, CFL = 10.229
+%% T =     2.550, DT =   1.280, NI =   5, LI =    29, CFL = 7.353
+%% T =     0.630, DT =   0.320, NI =   4, LI =    19, CFL = 2.345
+%% T =     1.270, DT =   0.640, NI =   5, LI =    26, CFL = 4.693
+%% T =     2.550, DT =   1.280, NI =   5, LI =    29, CFL = 7.353
+%% T =    10.230, DT =   5.120, NI =   6, LI =    42, CFL = 13.019
+%% T =     1.270, DT =   0.640, NI =   4, LI =    20, CFL = 3.939
+%% T =     5.110, DT =   2.560, NI =   6, LI =    38, CFL = 10.229
+%% T =   390.000, DT =  30.000, NI =   5, LI =    38, CFL = 17.157
+%% T =     5.110, DT =   2.560, NI =   6, LI =    38, CFL = 10.229
+%% T =    10.230, DT =   5.120, NI =   6, LI =    42, CFL = 13.019
+%% T =     2.550, DT =   1.280, NI =   5, LI =    29, CFL = 7.353
+%% T =     2.550, DT =   1.280, NI =   4, LI =    22, CFL = 6.020
+%% T =     5.110, DT =   2.560, NI =   6, LI =    38, CFL = 10.229
+%% T =    20.470, DT =  10.240, NI =   6, LI =    43, CFL = 16.810
+%% T =   420.000, DT =  30.000, NI =   5, LI =    38, CFL = 16.840
+%% T =    10.230, DT =   5.120, NI =   6, LI =    42, CFL = 13.019
+%% T =    10.230, DT =   5.120, NI =   6, LI =    42, CFL = 13.019
+%% T =     5.110, DT =   2.560, NI =   4, LI =    23, CFL = 8.245
+%% T =    20.470, DT =  10.240, NI =   6, LI =    43, CFL = 16.810
+%% T =     5.110, DT =   2.560, NI =   6, LI =    38, CFL = 10.229
+%% T =    10.230, DT =   5.120, NI =   6, LI =    42, CFL = 13.019
+%% T =    10.230, DT =   5.120, NI =   4, LI =    26, CFL = 10.137
+%% T =    40.950, DT =  20.480, NI =   6, LI =    47, CFL = 23.907
+%% T =    20.470, DT =  10.240, NI =   6, LI =    43, CFL = 16.810
+%% T =   450.000, DT =  30.000, NI =   5, LI =    39, CFL = 16.547
+%% T =    20.470, DT =  10.240, NI =   6, LI =    43, CFL = 16.810
+%% T =    40.950, DT =  20.480, NI =   6, LI =    47, CFL = 23.907
+%% T =    10.230, DT =   5.120, NI =   6, LI =    42, CFL = 13.019
+%% T =    20.470, DT =  10.240, NI =   6, LI =    43, CFL = 16.810
+%% T =    20.470, DT =  10.240, NI =   5, LI =    34, CFL = 11.735
+%% T =    70.950, DT =  30.000, NI =   6, LI =    45, CFL = 28.881
+%% T =    40.950, DT =  20.480, NI =   6, LI =    47, CFL = 23.907
+%% T =   480.000, DT =  30.000, NI =   5, LI =    41, CFL = 16.262
+%% T =    40.950, DT =  20.480, NI =   6, LI =    47, CFL = 23.907
+%% T =    70.950, DT =  30.000, NI =   6, LI =    45, CFL = 28.881
+%% T =    40.950, DT =  20.480, NI =   6, LI =    47, CFL = 23.907
+%% T =    20.470, DT =  10.240, NI =   6, LI =    43, CFL = 16.810
+%% T =    40.950, DT =  20.480, NI =   6, LI =    44, CFL = 13.988

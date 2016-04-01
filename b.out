@@ -1,0 +1,19 @@
+ADGPRS_CMD: /home/yiminliu/ADGPRS_RelPermRegions_yiminliu_0604/SourceCode/bin/simulate
+Number of cases: 2
+ADGPRS_CMD: /home/yiminliu/ADGPRS_RelPermRegions_yiminliu_0604/SourceCode/bin/simulate
+Number of cases: 2
+rank: 0
+Number of processors: 1
+Average Number of Jobs:2
+Remained Number of Jobs:0
+Proc #0:Index of first job0
+Proc #0:Index of last job1
+/home/yiminliu/ADGPRS_RelPermRegions_yiminliu_0604/SourceCode/bin/simulate /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PRED_MODEL.TXT 1 0 >> adgprs_out_0.txt
+rank: 0
+Number of processors: 1
+Average Number of Jobs:2
+Remained Number of Jobs:0
+Proc #0:Index of first job0
+Proc #0:Index of last job1
+/home/yiminliu/ADGPRS_RelPermRegions_yiminliu_0604/SourceCode/bin/simulate /data/cees/yiminliu/rejection_sampling_validation/model1/case2/batch1/run_1/pred_model/PRED_MODEL.TXT 1 0 >> adgprs_out_0.txt
+Ctrl-C caught... cleaning up processes
